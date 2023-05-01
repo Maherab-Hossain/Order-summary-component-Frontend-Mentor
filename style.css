@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+/* DEFAULT CSS STARTS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* DEFAULT CSS ENDS */
+
+/* CARD STARTS */
+
+section{
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 450px;
+    height: 650px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card .cardbg img{
+    width: 450px;
+    height: 200px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.card .cardCnt{
+    margin-top: 35px;
+}
+.card .cardCnt h2{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.card .cardCnt p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 22px 45px;
+}
+.card .cardCnt .music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 45px;
+    width: 350px;
+    height: 90px;
+    border-radius: 12px;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+}
+.card .cardCnt .music img{
+    position: absolute;
+    margin:20px 260px 20px 0px;
+}
+.card .cardCnt .music .price{
+    position: absolute;
+    margin: 0px 85px 0px 0px;
+}
+.card .cardCnt .music .price span{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.card .cardCnt .music .price span a{
+    line-height: 28px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+.card .cardCnt .music .cng {
+    position: absolute; 
+     margin-left: 270px;
+}
+.card .cardCnt .music .cng a{
+    font-weight: 700;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+.card .cardCnt pre{
+    margin: 40px 42px;
+}
+.card .cardCnt pre a{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 100px;
+    border-radius: 12px;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+}
+.card .cardCnt .cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .cardCnt .cancel a{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+
+/* CARD ENDS */
+
+/* FOOTER STARTS */
+
+footer {
+    font-weight: 700;
+    text-align: center;
+
+}
+footer a{
+    color: hsl(223, 47%, 23%);
+}
+footer a:hover{
+    color:  hsl(224, 23%, 55%) ;
+}
+
+/* FOOTER ENDS */
